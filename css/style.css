@@ -714,6 +714,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #2dc997;
 }
 
+/*FAQs  */
+#faqs {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#faqs .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#faqs .cta-text {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #faqs .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#faqs .cta-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#faqs .cta-btn:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
+
+
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
