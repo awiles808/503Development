@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(https://images.pexels.com/photos/213947/pexels-photo-213947.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) top center;
   background-size: cover;
   position: relative;
 }
@@ -502,8 +502,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about-img.jpg) center top no-repeat;
+  /* background: url(https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/23519010_1520764558037590_2273146342089407867_n.jpg?_nc_cat=0&oh=ce0d218629fd7479f81215e204593f84&oe=5BFD0752) center top no-repeat; */
+  background: url(https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/1917964_963251810455537_3063865831088199311_n.jpg?_nc_cat=0&oh=586d156fa2e458c0c540fe1e44a075d0&oe=5C0AF939) center top no-repeat;
   margin-bottom: 10px;
+
 }
 
 #about .about-container .content {
@@ -669,7 +671,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
