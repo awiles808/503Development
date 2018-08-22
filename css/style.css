@@ -493,6 +493,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #999;
 }
 
+
+
+.section-header2 .section-title2 {
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.section-header2 .section-description2 {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #999;
+}
+
+
 /* About Us Section
 --------------------------------*/
 #about {
@@ -755,6 +773,53 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faqs .cta-btn:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
+
+
+
+
+#faqs2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#faqs2 .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#faqs2 .cta-text {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #faqs2 .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#faqs2 .cta-btn {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#faqs2 .cta-btn:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
 }
